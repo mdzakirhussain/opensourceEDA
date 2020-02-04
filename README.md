@@ -27,9 +27,9 @@ Then clone
 https://github.com/YosysHQ/yosys
  
 Then 
- cd yosys
+cd yosys
  yosys>sudo make
-      >sudo make install
+ >sudo make install
 
 ###For graywolf follow the instructions at the below link
 
