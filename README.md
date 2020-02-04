@@ -16,103 +16,109 @@ Tool		:				Purpose
 
 ###For yosys follow the instructions given at the below link    
 
- Dependencies    
+ Dependencies      
 
-sudo apt-get install build-essential clang bison flex \
+In the terminal    
+>sudo apt-get install build-essential clang bison flex \
 	libreadline-dev gawk tcl-dev libffi-dev git \
 	graphviz xdot pkg-config python3 libboost-system-dev \
 	libboost-python-dev libboost-filesystem-dev zlib1g-dev
   
-Then clone     
-https://github.com/YosysHQ/yosys  
+Then clone, for that in the terminal type the following   
+>git clone https://github.com/YosysHQ/yosys    
  
-Then    
-cd yosys     
-yosys>sudo make    
-     >sudo make install    
+Then, in the terminal        
+>cd yosys       
+yosys>sudo make      
+     >sudo make install      
 
-###For graywolf follow the instructions at the below link    
+###For graywolf follow the instructions at the below link      
 
-Dependencies    
+Dependencies      
 
-sudo apt-get update -y    
-sudo apt-get install -y libgsl0-dev    
-sudo apt-get install libx11-dev    
-sudo apt  install cmake    
+In the terminal  
 
-Then clone     
+>sudo apt-get update -y      
+>sudo apt-get install -y libgsl0-dev      
+>sudo apt-get install libx11-dev      
+>sudo apt  install cmake      
 
-https://github.com/rubund/graywolf    
+Then clone, for that in the terminal type        
 
-Then    
-cd graywolf    
-graywolf>mkdir build    
-         cd build    
-         cmake ../    
-         sudo make      
-         sudo make install      
+>git clone https://github.com/rubund/graywolf      
+
+Then, in the terminal   
+>cd graywolf      
+graywolf>mkdir build      
+         >cd build      
+         >cmake ../      
+         >sudo make        
+         >sudo make install        
          
-###for qrouter    
+###for qrouter      
 Dependencies    
-sudo apt-get install tcsh    
-sudo apt-get install tcl-dev tk-dev    
+In the terminal    
+>sudo apt-get install tcsh      
+>sudo apt-get install tcl-dev tk-dev      
 
-unzip use the following files   
-tcl8.6.10-src.tar.gz      
-tk8.6.10-src.tar.gz  
+unzip use the following files     
+tcl8.6.10-src.tar.gz        
+tk8.6.10-src.tar.gz    
 
-use in the terminal    
->tar xzvf tcl8.6.10-src.tar.gz    
->tar xzvf tk8.6.10-src.tar.gz    
+use in the terminal      
+>tar xzvf tcl8.6.10-src.tar.gz      
+>tar xzvf tk8.6.10-src.tar.gz      
 
-After that do the following in the terminal   
- >cd tcl8.5.0/unix    
- >./configure  
- >sudo make  
- >sudo make test  
- >sudo make install    
- 
- And then in the terminal    
- >cd tk8.5.0/unix    
+After that do the following in the terminal     
+ >cd tcl8.5.0/unix      
  >./configure    
  >sudo make    
  >sudo make test    
- >sudo make install    
+ >sudo make install      
  
- And then in the terminal
- >tar xzvf qrouter-1.4.59.tgz
- >cd qrouter
- >./configure
- >sudo make
- >sudo make install
+ And then in the terminal      
+ >cd tk8.5.0/unix      
+ >./configure      
+ >sudo make      
+ >sudo make test      
+ >sudo make install      
  
-###for magic      
+ And then in the terminal  
+ >tar xzvf qrouter-1.4.59.tgz  
+ >cd qrouter  
+ >./configure  
+ >sudo make  
+ >sudo make install  
+ 
+###for magic        
 
-Dependencies      
-sudo apt-get install libcairo2-dev     
+Dependencies   
+In the terminal    
+>sudo apt-get install libcairo2-dev       
 
-And then in the terminal  
->tar xzvf magic-8.2.182.tgz  
->cd magic  
->./configure  
->sudo make  
->sudo make install  
+And then in the terminal    
+>tar xzvf magic-8.2.182.tgz    
+>cd magic    
+>./configure    
+>sudo make    
+>sudo make install    
 
-###for netgen  
-In the terminal  
->tar xzvf netgen-1.5.136.tgz  
->cd netgen  
->./configure  
->sudo make  
->sudo make install  
+###for netgen    
+In the terminal    
+>tar xzvf netgen-1.5.136.tgz    
+>cd netgen    
+>./configure    
+>sudo make    
+>sudo make install    
 
-###for qflow      
-Dependencies      
-sudo apt-get install python3-tk    
+###for qflow        
+Dependencies  
+In the terminal    
+>sudo apt-get install python3-tk      
 
-And then in the terminal  
->tar xzvf qflow-1.3.18.tgz  
->cd qflow  
->./configure  
->sudo make  
->sudo make install  
+And then in the terminal    
+>tar xzvf qflow-1.3.18.tgz    
+>cd qflow    
+>./configure    
+>sudo make    
+>sudo make install    
