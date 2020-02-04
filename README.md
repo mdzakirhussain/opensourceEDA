@@ -8,10 +8,10 @@ Qflow is a complete tool chain for synthesizing digital circuits starting from v
 for a specific target fabrication process.
 
 Tool	                Purpose	
-1. yosys	            Verilog parsing/synthesis/optimization/verification	git repository	http://www.clifford.at/yosys/download.html
-2. graywolf	          Placement	
-3. qrouter	          Detail routing	
-4. magic	            Viewing, extraction, DRC checks, GDS Generation	Open Circuit Design	http://opencircuitdesign.com/magic
+1. yosys	            Verilog parsing/synthesis/optimization/verification	
+2. graywolf	            Placement	
+3. qrouter	            Detail routing	
+4. magic	            Viewing, extraction, DRC checks, GDS Generation
 5. netgen	            LVS
 
 ###For yosys follow the instructions given at the below link
@@ -52,7 +52,7 @@ graywolf>mkdir build
          sudo make  
          sudo make install  
          
-   ### for qrouter
+###for qrouter
 Dependencies
 sudo apt-get install tcsh
 sudo apt-get install tcl-dev tk-dev
