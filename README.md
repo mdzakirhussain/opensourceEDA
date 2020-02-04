@@ -7,12 +7,12 @@ Before installing Qflow We need the following set of tools.
 Qflow is a complete tool chain for synthesizing digital circuits starting from verilog source and ending in physical layout   
 for a specific target fabrication process.  
 
-Tool				Purpose    	
-1. yosys			Verilog parsing/synthesis/optimization/verification    	
-2. graywolf			Placement    	
-3. qrouter			Detail routing    	
-4. magic			Viewing, extraction, DRC checks, GDS Generation    
-5. netgen			LVS    
+Tool		:				Purpose    	
+1. yosys	;			Verilog parsing/synthesis/optimization/verification    	
+2. graywolf	;			Placement    	
+3. qrouter	;			Detail routing    	
+4. magic	;			Viewing, extraction, DRC checks, GDS Generation    
+5. netgen	;			LVS    
 
 ###For yosys follow the instructions given at the below link    
 
