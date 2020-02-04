@@ -57,33 +57,62 @@ Dependencies
 sudo apt-get install tcsh    
 sudo apt-get install tcl-dev tk-dev    
 
-to unzip use the following files   
+unzip use the following files   
 tcl8.6.10-src.tar.gz      
-tk8.6.10-src.tar.gz    
+tk8.6.10-src.tar.gz  
+
 use in the terminal    
 >tar xzvf tcl8.6.10-src.tar.gz    
 >tar xzvf tk8.6.10-src.tar.gz    
 
-After that do the following    
+After that do the following in the terminal   
  >cd tcl8.5.0/unix    
  >./configure  
  >sudo make  
  >sudo make test  
  >sudo make install    
  
- And then    
+ And then in the terminal    
  >cd tk8.5.0/unix    
  >./configure    
  >sudo make    
  >sudo make test    
  >sudo make install    
  
-###for magic    
+ And then in the terminal
+ >tar xzvf qrouter-1.4.59.tgz
+ >cd qrouter
+ >./configure
+ >sudo make
+ >sudo make install
+ 
+###for magic      
 
-Dependencies    
-sudo apt-get install libcairo2-dev    
+Dependencies      
+sudo apt-get install libcairo2-dev     
 
+And then in the terminal  
+>tar xzvf magic-8.2.182.tgz  
+>cd magic  
+>./configure  
+>sudo make  
+>sudo make install  
 
-###for qflow    
-Dependencies    
-sudo apt-get install python3-tk     
+###for netgen  
+In the terminal  
+>tar xzvf netgen-1.5.136.tgz  
+>cd netgen  
+>./configure  
+>sudo make  
+>sudo make install  
+
+###for qflow      
+Dependencies      
+sudo apt-get install python3-tk    
+
+And then in the terminal  
+>tar xzvf qflow-1.3.18.tgz  
+>cd qflow  
+>./configure  
+>sudo make  
+>sudo make install  
