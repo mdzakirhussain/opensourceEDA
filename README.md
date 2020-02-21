@@ -14,6 +14,16 @@ Tool		:				Purpose
 4. magic	;			Viewing, extraction, DRC checks, GDS Generation    
 5. netgen	;			LVS    
 
+INSTALLATION INSTRUCTIONS FOR NOVICE  
+1. FIRST CLONE THIS REPOSITORY
+2. THEN GOTO THE CLONED DIRECTORY CALLED opensourceEDA  
+3. and then type the command in the terminal sudo ./opensourceEDA1.sh  
+
+
+The following is for Advanced users  
+
+
+
 ###For yosys follow the instructions given at the below link    
 
  Dependencies      
